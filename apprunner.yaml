@@ -4,6 +4,7 @@ build:
   commands:
     build:
       - echo example build command for PHP
+      - chmod +x ./startup.sh
 run:
   command: ./startup.sh
   network:
