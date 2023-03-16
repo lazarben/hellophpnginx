@@ -3,6 +3,7 @@ runtime: php81
 build:
   commands:
     build:
+      - easy_install supervisor
       - chmod +x ./startup.sh
 run:
   command: ./startup.sh
